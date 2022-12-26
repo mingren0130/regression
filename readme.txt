@@ -1,0 +1,1 @@
+The sample data is a compressed file and needs to be decompressed before it can be used
