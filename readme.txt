@@ -7,10 +7,25 @@ Python packge
 
 Program Usage
 
-	python Regression.py 	-i <input filename (please specify .csv file format)>
+	python3 Regression.py 	-i <input filename (please specify .csv file format)>
 			        -o <feature output filename>
 
+Datasets
+	sample data files were provided to test the efficacy of the CVFS program. Please unzip the CSV files using the following command:
 
+	$ cd CVFS_code
+	$ for i in *.tar.gz
+	$ tar zxvf ${i}
+	$ done
 
+Example command:
+	(Simple run using default command; assume running on the ampicillin.csv dataset)
+	$ python3 Regression.py -i ampicillin.csv -o ampicillin.csv
 
-PS: The sample data is a compressed file and needs to be decompressed before it can be used
+Contributing authors
+Ming-Ren Yang 
+Graduate Institute of Biomedical Informatics, Taipei Medical University, Taipei, Taiwan
+
+Version
+0.1
+
