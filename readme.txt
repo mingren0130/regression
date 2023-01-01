@@ -13,11 +13,6 @@ Program Usage
 Datasets
 	sample data files were provided to test the efficacy of the CVFS program. Please unzip the CSV files using the following command:
 
-	$ cd CVFS_code
-	$ for i in *.tar.gz
-	$ tar zxvf ${i}
-	$ done
-
 Example command:
 	(Simple run using default command; assume running on the ampicillin.csv dataset)
 	$ python3 Regression.py -i ampicillin.csv -o ampicillin.csv
@@ -28,4 +23,3 @@ Graduate Institute of Biomedical Informatics, Taipei Medical University, Taipei,
 
 Version
 0.1
-
