@@ -1,6 +1,5 @@
 Python packge
 
-	math
 	numpy
 	pandas
 	sklearn
@@ -8,8 +7,8 @@ Python packge
 
 Program Usage
 
-	python CVFS.py 	-i <input filename (please specify .csv file format)>
-			            -o <feature output filename>
+	python Regression.py 	-i <input filename (please specify .csv file format)>
+			        -o <feature output filename>
 
 
 
