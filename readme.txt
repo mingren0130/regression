@@ -4,6 +4,7 @@ Python packge
 	pandas
 	sklearn
 	xgboost (requires cmake 3.1.3 or higher as of 6/25/2021)
+	tqdm
 
 Program Usage
 
